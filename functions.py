@@ -26,6 +26,10 @@ def binary_to_decimal(a):
 
 
 def odd_or_even(a):
+    '''
+    :param a: number
+    :return: boolean value. True if a is even False if it is odd
+    '''
     if int(a)%2 == 0:
         is_even = True
     else:
